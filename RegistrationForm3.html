@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <style>
+  
+form{
+    margin: 20px auto;
+    width: 340px;
+}
+input{
+    padding: 5px;
+    font-size: inherit;
+}
+input[type="text"]{
+    display: block;
+    margin-bottom: 20px;
+    width: 340px;
+}
+input[type="password"]{
+    margin-bottom: 20px;
+    width: 340px;
+}
+input[type="email"]{
+    margin-bottom: 20px;
+    width: 340px;
+}
+input[type="radio"]{
+    margin: 0 8px 20px 18px;
+}
+input[type="radio"]:first-child {
+    margin-left: 5px;
+}
+input[type="submit"]{
+    width:85px;
+    height: 35px;
+    border: none;
+    color: blue;
+    
+}
+
+    </style>
+</head>
+
+<body>
+    <h1>My Registration Form</h1>
+    <p>
+        <label for="First_name">First Name 
+            <input type="text" name="First_name" id="First_name" placeholder="First name">
+        </label>
+    </p>
+    <p>
+        <label for="Last_name">Last Name
+            <input type="text" name="Last_name" id="Last_name">
+        </label>
+    </p>
+    <p>
+        <label for="email">Email
+            <input type="text" name="email" id="email">
+        </label>
+    </p>
+    <p>
+        <label for="Password">Password
+            <input type="text" name="Password" id="Password">
+        </label>
+    </p>
+    <p>
+        <label for="PW_confirm">PW confirm
+            <input type="text" name="PW_confirm" id="PW_confirm">
+        </label>
+    </p>
+    <p>
+        <label for="Birthday">Birthday
+            <input type="date" name="Birthday" id="Birthday" placeholder="dd/mm/yy" >
+        </label>
+    </p>
+
+    <p>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label>
+    </p>
+    
+    <p>
+        <label for="">A short description about yourself</label>
+        <br>
+        <textarea name="text" id="Information" cols="47" rows="4"></textarea>
+    </p>
+    <p>
+        Favorite Language
+        <select name="language" id="language">
+            <option value="Javascript">Javascript</option>
+            <option value="Python">Python</option>
+            <option value="MySql">MySql</option>
+        </select>
+    </p>
+    
+    <p>
+    <input type="submit" value="Submit me">
+    <input type="hidden" name="id" value="7">
+    </p>
+</body>
+
+</html>
