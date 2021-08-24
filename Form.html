@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <label for="first_name">First Name:
+        <input type="text" id="first_name" name="first_name">
+    </label>
+
+    <label for="last_name">Last Name:
+        <input type="text" id="last_name" name="last_name">
+    </label>
+
+    <label for="email">Email:
+        <input type="text" id="email" name="email">
+    </label>
+
+    <label for="password">Password:
+        <input type="text" id="password" name="password">
+    </label>
+
+    <p>
+    <label for="male">Male:
+        <input type="radio" id="male" name="gender" value="male">
+    </label> 
+
+    <label for="female">Female:
+        <input type="radio" id="female" name="gender" value="female">
+    </label>
+
+    <label for="decline">Prefer not to say:
+        <input type="radio" id="decline" name="gender" value="decline">
+    </label>
+    </p>
+
+    <br>
+    <br>
+    
+    <p>
+        <select name="gender" id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="decline">Prefer not to say</option>
+        </select>
+    
+    </p>
+    <br>
+    <p>
+        <label for="blue">Blue
+            <input type="checkbox" id="blue" name="color" value="blue">
+        </label>
+        <label for="green">Green
+            <input type="checkbox" id="green" name="color" value="green">
+        </label>
+    </p>
+
+    <p>
+        <label for="red">Red
+            <input type="checkbox" name="color" id="red" value="red">
+        </label>
+        <label for="purple">Purple
+            <input type="checkbox" name="color" id="purple" >
+        </label>
+    </p>
+    
+    <div>Type Info Here</div>
+    <textarea name="description"></textarea>
+    <br>
+    <input type="submit" value="Submit">
+
+    <input type="hidden" name="id" value="7">  //for back-end authentication//
+
+
+
+</body>
+</html>

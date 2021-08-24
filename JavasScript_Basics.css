@@ -1,0 +1,76 @@
+#container{
+    width: 970px;
+    height: 715px;
+    background-color:#1d355c;
+    padding: 10px;
+}
+.header{
+    width:100%;
+    height: 60px; 
+    background-color:#cc323b;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    
+}
+.header h1{
+    color: white;
+    padding: 10px 15px;
+}
+.navbar{
+    display: inline-block;
+    vertical-align: top;
+    background-color: #2f7d8b;
+    width: 220px;
+    height:220px;
+    border-radius: 10px;
+    padding: 15px;
+    color:white;
+}
+.navbar a{
+    color:  #61cac7;
+}
+.main-content{
+    display: inline-block;
+    width:700px;
+    height: 550px;
+    border-radius: 10px;
+    background-color:black;
+    margin-left: 15px;
+    color: white;
+    
+}
+#footer{
+    height: 30px;
+    border-radius:10px;
+    background-color: #5e6672;
+    margin-top: 15px;
+    padding:12px;
+}
+h2 {
+    margin-left: 10px;
+    font-size: 18px;
+}
+h3{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 13px;
+}
+.main-content a{
+    /*color:  #61cac7;*/
+    color: lightblue;
+}
+#nav-main{
+    margin-right: 10px;
+    font-size:15px;
+}
+span{
+    color: rgb(135, 146, 250);
+}
+.For{
+    margin-left: 15px;
+    margin-top: 5px;
+    color: white;
+}
+.For a{
+    color: lightblue;
+}
